@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cacao Puro en Polvo</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-color: #f5f5f5;
+            padding: 20px;
+        }
+        
+        .flyer-container {
+            width: 100%;
+            max-width: 500px;
+            background: linear-gradient(to bottom, #7B3F00, #5D2906);
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(123, 63, 0, 0.4);
+            color: #fff;
+            text-align: center;
+            position: relative;
+        }
+        
+        .header {
+            padding: 25px 20px 15px;
+            background-color: rgba(0, 0, 0, 0.2);
+        }
+        
+        h1 {
+            font-size: 32px;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+            color: #FFD700;
+        }
+        
+        .subtitle {
+            font-size: 18px;
+            margin-bottom: 15px;
+            font-weight: 500;
+        }
+        
+        .divider {
+            height: 3px;
+            background: linear-gradient(to right, transparent, #FFD700, transparent);
+            margin: 15px 0;
+        }
+        
+        .content {
+            padding: 20px;
+        }
+        
+        .product-image {
+            width: 100%;
+            height: 200px;
+            background-color: #5D2906;
+            border-radius: 15px;
+            margin: 15px 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+            position: relative;
+        }
+        
+        .cacao-beans {
+            font-size: 100px;
+            color: #7B3F00;
+            text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+        }
+        
+        .features {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px;
+            margin: 20px 0;
+        }
+        
+        .feature {
+            background: rgba(255, 215, 0, 0.15);
+            padding: 10px 15px;
+            border-radius: 50px;
+            font-size: 14px;
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+        
+        .benefits {
+            text-align: left;
+            margin: 20px 0;
+            padding: 0 10px;
+        }
+        
+        .benefits li {
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .price {
+            font-size: 28px;
+            font-weight: bold;
+            margin: 20px 0;
+            color: #FFD700;
+        }
+        
+        .contact {
+            background-color: rgba(0, 0, 0, 0.2);
+            padding: 20px;
+            margin-top: 15px;
+        }
+        
+        .whatsapp-btn {
+            display: inline-block;
+            background-color: #25D366;
+            color: white;
+            padding: 15px 30px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 18px;
+            margin-top: 10px;
+            transition: all 0.3s;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+        }
+        
+        .whatsapp-btn:hover {
+            background-color: #128C7E;
+            transform: translateY(-3px);
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.4);
+        }
+        
+        .footer {
+            padding: 15px;
+            font-size: 12px;
+            background-color: rgba(0, 0, 0, 0.3);
+        }
+        
+        @media (max-width: 500px) {
+            h1 {
+                font-size: 28px;
+            }
+            
+            .subtitle {
+                font-size: 16px;
+            }
+            
+            .feature {
+                font-size: 12px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="flyer-container">
+        <div class="header">
+            <h1>CACAO EN POLVO 100% PURO</h1>
+            <div class="subtitle">Natural • Orgánico • Sin Aditivos</div>
+            <div class="divider"></div>
+        </div>
+        
+        <div class="content">
+            <div class="product-image">
+               <img src="D:\svg-01.svg" alt="Cacao en polvo 100% puro" class="cacao-beans">
+            </div>
+            
+            <p>Disfruta del auténtico sabor del cacao natural en su forma más pura, directo de nuestra cosecha a tu mesa.</p>
+            
+            <div class="features">
+                <div class="feature"✔️ 100% Natural</div>
+                <div class="feature">✔️ Sin conservantes</div>
+                <div class="feature">✔️ Origen premium</div>
+            </div>
+            
+            <div class="benefits">
+                <h3>Beneficios:</h3>
+                <ul>
+                    <li>✅ Rico en antioxidantes y minerales</li>
+                    <li>✅ Ideal para repostería y bebidas</li>
+                    <li>✅ Apto para veganos</li>
+                    <li>✅ Intenso sabor chocolate</li>
+                </ul>
+            </div>
+            
+            <div class="price">Lps. 300 / 1 Lb</div>
+            <p>¡Oferta especial! Llévate 1Lb por solo Lps. 300</p>
+        </div>
+        
+        <div class="contact">
+            <p>¡Pide el tuyo ahora! Entregas a domicilio</p>
+            <a href="https://wa.me/+50489882825?text=Estoy%20interesado%20en%20el%20cacao%20en%20polvo" class="whatsapp-btn">💬 Contactar por WhatsApp</a>
+        </div>
+        
+        <div class="footer">
+            <p>📍 San Pedro Sula, Cortes • 🚗 Envíos gratuitos en compras mayores a Lps1000</p>
+        </div>
+    </div>
+</body>
+</html>
